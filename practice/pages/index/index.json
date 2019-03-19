@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "第一个微信小程序项目",
+  "usingComponents":{
+    "MyTitle":"../../components/MyTitle/MyTitle"
+  }
+}

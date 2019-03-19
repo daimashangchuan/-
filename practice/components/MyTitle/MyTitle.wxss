@@ -1,0 +1,27 @@
+/* components/MyTitle/MyTitle.wxss */
+.my_title{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.logo{
+    flex: 7;
+}
+.search_icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.user_icon{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.download_icon{
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
