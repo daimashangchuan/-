@@ -1,0 +1,62 @@
+/* 店铺详情 */
+page{
+    padding: 15rpx;
+}
+.detail_list{
+    font-size: 26rpx;
+    color: rgb(77, 65, 65);
+    margin: 15rpx 0 30rpx 0;
+}
+/* 店铺信息 */
+.detail_item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 150rpx;
+}
+.detail_item .name{
+    font-size: 30rpx;
+    color: #000;
+    font-weight: bold;
+}
+.detail_item .p{
+    margin-right: 10rpx;
+    color: #000;
+}
+
+/* 评论信息 */
+.detail_comment{
+    font-size:26rpx;
+    color:rgb(70, 58, 58);
+}
+.comment_list{
+    margin: 16rpx 0;
+    border-bottom: 1px solid rgb(138, 123, 123)
+}
+.comment_list .info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 16rpx;
+}
+.comment_list .info .name{
+    font-size: 28rpx;
+    color: #000;
+    font-weight: bold;
+}
+.comment_swiper{
+    display: flex;
+    justify-content: start;
+    margin: 5rpx 0;
+}
+.comment_images{
+    width: 80rpx;
+    height: 80rpx;   
+    margin: 0 16rpx 10rpx 0;
+    background: #000;
+}
+.comment_images image{
+    width: 100%;
+    height: 100%;
+}

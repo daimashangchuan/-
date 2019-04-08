@@ -1,0 +1,58 @@
+page{
+    color: rgb(190, 178, 178);
+}
+/* 列表详情 */
+.list_wrap{
+    padding: 10rpx;
+}
+.list_score{
+    padding: 10rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+}
+/* 店铺容器 */
+/* 左侧图片 */
+.list_item{
+    margin-bottom: 10rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.list_img{
+    float:left;
+    margin-right: 20rpx;
+}
+.list_img image{
+    width:180rpx;
+    height:160rpx;
+    border-radius: 10rpx;
+}
+/* 右侧信息 */
+.list_info{
+    font-size: 24rpx;
+    float: right;
+    width:520rpx;
+}
+.list_info .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.list_info view{
+    margin-bottom: 5rpx;
+}
+.list_info .title .name{
+    font-size: 28rpx;
+    color: rgb(12, 12, 12)
+}
+.list_info .title .score{
+    width:60rpx;
+    background:red;
+    color:#fff;
+    text-align:center;
+    line-height:36rpx;
+    border-radius:15rpx;
+}
+.list_info .black{
+    margin-right: 5rpx;
+    color: rgb(49, 47, 47)
+}

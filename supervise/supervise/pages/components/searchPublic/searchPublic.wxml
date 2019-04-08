@@ -1,0 +1,8 @@
+<view class="main">
+    <view class="text">
+        <input placeholder="搜索" auto-focus />
+    </view>
+    <view class="search">
+        <i class="fa fa-search"></i>
+    </view>
+</view>

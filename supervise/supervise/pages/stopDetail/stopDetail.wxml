@@ -1,0 +1,47 @@
+<view class="mian">
+    <!-- 轮播图 -->
+    <view class="detail_image">
+        <swiper class="swiper_img" indicator-dots  autoplayinterval="3000" circular>
+            <swiper-item wx:for="{{stopDetailList.images}}" wx:key="{{index}}">
+                <image style="width:100%; border-radius: 15rpx;" src="{{item}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 店铺详情 -->
+    <view class="detail_list">
+        <view class="detail_item">
+            <!-- 店名 -->
+            <view class="name">{{stopDetailList.name}}</view>
+            <!-- 电话 -->
+            <view class="phone">
+                <text class="p">电话:</text>{{stopDetailList.phone}}
+            </view>
+            <!-- 地址 -->
+            <view class="address">
+                <text class="p">地址:</text>{{stopDetailList.address}}
+            </view>
+            <!-- 营业时间 -->
+            <view class="businessHour">
+                <text class="p">营业时间:</text>{{stopDetailList.businessHours}}  
+            </view>
+        </view>
+    </view>
+    <!-- 评论信息 -->
+    <view class="detail_comment">
+        <view class="comment_list" wx:for="{{stopDetailList.comments}}" wx:key="{{index}}">
+            <!-- 用户名与日期 -->
+            <view class="info">
+                <text class="name">{{item.name}}</text>
+                <text class="date">评论日期:{{item.date}}</text>
+            </view>
+            <!-- 评论内容 -->
+            <view class="content">{{item.content}}</view>
+            <!-- 评论图片 -->
+            <view class="comment_swiper">
+                <view class="comment_images" wx:for="{{item.images}}"  wx:key="{{index}}">
+                    <!-- <image src="{{item}}"></image> -->
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

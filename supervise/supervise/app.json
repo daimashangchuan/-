@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/stopDetail/stopDetail",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/contact/contact"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "tabs/home.png",
+        "selectedIconPath": "tabs/home-active.png"
+      },{
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "tabs/message.png",
+        "selectedIconPath": "tabs/message-active.png"
+      },{
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "tabs/profile.png",
+        "selectedIconPath": "tabs/profile-active.png"
+      },{
+        "pagePath": "pages/contact/contact",
+        "text": "设置",
+        "iconPath": "tabs/contact.png",
+        "selectedIconPath": "tabs/contact-active.png"
+      }
+    ]
+  },
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"#fff"
+  }
+}

@@ -1,0 +1,39 @@
+<view class="mian">
+    <!-- 店铺 -->
+    <view class="name">
+        店铺名:<input placeholder="请输入店铺名" auto-focus />
+    </view>
+    <!-- 电话 -->
+    <view class="phone">
+        店铺名:<input placeholder="请输入电话" auto-focus />
+    </view>
+    <!-- 地图 -->
+    <view class="map">
+        <text>地图</text>
+    </view>
+    <!-- 营业时间 -->
+    <view class="businessHours">
+        <!-- 开始 -->
+        <view class="bus_start">
+            请选择开始营业时间<input placeholder="请输入" auto-focus />
+        </view>
+        <!-- 结束 -->
+        <view class="bus_end">
+            请选择结束营业时间<input placeholder="请输入" auto-focus />
+        </view>
+    </view>
+    <!-- 店铺类型 -->
+    <view class="name_type">
+        
+    </view>
+    <!-- week -->
+    <view class="week">
+        <checkbox-group bindchange="checkboxChange">
+            <block wx:for="{{week}}" wx:key="{{index}}">
+                <checkbox  value="{{item.name}}" checked="{{item.checked}}" />
+                {{item.value}}
+            </block>
+        </checkbox-group>
+    </view>
+    <button class="submit">提交</button>
+</view>
